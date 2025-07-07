@@ -33,7 +33,7 @@ public class CheckOutPage {
 			driver.findElement(increment).click();
 		}
 		else
-			while( i < incrementValue) {
+			while( i <= incrementValue) {
 				driver.findElement(increment).click();
 				i++;
 				
